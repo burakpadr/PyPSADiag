@@ -316,13 +316,14 @@ class PyPSADiagGUI(object):
         flags_path = os.path.join(self.currentDir, "i18n", "flags")
 
         languages = [
+            ("tr", "Türkçe"),
             ("en", "English"),
             ("it", "Italiano"),
             ("de", "Deutsch"),
             ("nl", "Nederlands"),
             ("pl", "Polski"),
             ("uk", "Українська"),
-            ("ru", "Русский"),   
+            ("ru", "Русский"),
         ]
 
         for code, name in languages:

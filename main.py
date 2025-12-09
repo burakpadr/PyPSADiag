@@ -55,7 +55,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self, app: QApplication):
         super(MainWindow, self).__init__()
-        self.lang_code = "en"
+        self.lang_code = "tr"
         self.lang = False
         if len(sys.argv) >= 2:
             for arg in sys.argv:
